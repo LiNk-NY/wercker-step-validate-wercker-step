@@ -1,0 +1,10 @@
+box: node:4-stretch
+build:
+  steps:
+    - npm-install
+    - npm-test
+
+publish:
+  steps:
+    - internal/publish-step:
+        owner: wercker
