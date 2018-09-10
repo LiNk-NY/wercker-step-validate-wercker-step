@@ -2,18 +2,19 @@
   "name": "validate-wercker-step",
   "version": "0.0.1",
   "dependencies": {
-    "underscore": "1.4",
-    "request": "1.9",
-    "async": "0.2",
-    "semver": "2.0",
-    "js-yaml": "2.1",
-    "JSV" : "4.0",
-    "esprima": "~ 1.0.2"
+    "JSV": "4.0",
+    "async": "^2.6.1",
+    "esprima": "^4.0.1",
+    "jasmine-node": "^1.16.2",
+    "js-yaml": "^3.12.0",
+    "request": "^2.88.0",
+    "semver": "^5.5.1",
+    "underscore": "^1.9.1"
   },
-  "devDependencies" : {
+  "devDependencies": {
     "jasmine-node": "1.0"
   },
-  "scripts" : {
-    "test" : "jasmine-node spec"
+  "scripts": {
+    "test": "jasmine-node spec"
   }
 }
